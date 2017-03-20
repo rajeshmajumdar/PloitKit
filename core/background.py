@@ -37,7 +37,7 @@ def hello():
 def atgexit():
     try:
         os.remove('mydownloads.txt')
-    except WindowsError:
+    except:
         pass
 
 def mainbody():
