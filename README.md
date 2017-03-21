@@ -19,6 +19,18 @@ I believe that, nothing can't be perfect, So I added option to report a tool, or
 # Contributions
 I added an option within the tool, so that you can support me, either in developing, sponsoring or simply donating.
 
+Thanks to:
+
+devil67
+beeprime
+BOWadapter
+irbisrus
+fcafra
+ziflar
+Lydecker Black
+
+For pointing out some critical bugs in the tool & for adding more tools.
+
 # Usage
 
 git clone https://github.com/rajeshmajumdar/PloitKit.git
