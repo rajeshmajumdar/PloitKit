@@ -21,13 +21,13 @@ I added an option within the tool, so that you can support me, either in develop
 
 Thanks to:
 
-devil67
-beeprime
-BOWadapter
-irbisrus
-fcafra
-ziflar
-Lydecker Black
+1. devil67
+2. beeprime
+3. BOWadapter
+4. irbisrus
+5. fcafra
+6. ziflar
+7. Lydecker Black
 
 For pointing out some critical bugs in the tool & for adding more tools.
 
