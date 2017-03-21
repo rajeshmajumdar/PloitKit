@@ -31,7 +31,7 @@ def checkupdates():
         error.geometry("268x82+482+242")
         error.title("Error!")
         error.configure(background="#ffffff")
-        error.wm_iconbitmap('images/icon.ico')
+        #error.wm_iconbitmap('images/icon.ico')
 
         Label1 = Label(error)
         Label1.place(relx=0.04, rely=0.24, height=21, width=244)
@@ -75,14 +75,14 @@ def updatefunc():
     update.geometry("270x192+454+143")
     update.title("Software Update")
     update.configure(background='#d9d9d9')
-    update.wm_iconbitmap('images/icon.ico')
+    #update.wm_iconbitmap('images/icon.ico')
 
     def yes():
         if os.name == 'nt':
-            webbrowser.open_new_tab('https://github.com/rajeshmajumdar/BruteXSS/archive/master.zip')
+            webbrowser.open_new_tab('https://github.com/rajeshmajumdar/PloitKit/archive/master.zip')
             update.destroy()
         else:
-            os.system('git clone https://github.com/rajeshmajumdar/BruteXSS.git')
+            os.system('git clone https://github.com/rajeshmajumdar/PloitKit.git')
             update.destroy()
     def no():
         print 'This thing is also working.'
