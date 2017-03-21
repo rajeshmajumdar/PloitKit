@@ -264,7 +264,7 @@ def mainbody():
                 searching.geometry("322x155+456+155")
                 searching.title("Search")
                 searching.configure(background="#d9d9d9")
-                searching.wm_iconbitmap('images/icon.ico')
+                #searching.wm_iconbitmap('images/icon.ico')
                 searching.resizable(0,0)
 
                 Searching = ttk.Label(searching)
