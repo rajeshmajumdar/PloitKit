@@ -51,7 +51,7 @@ def checkupdates():
         error.mainloop()
 
     try:
-        versionfile = urllib2.urlopen('https://raw.githubusercontent.com/rajeshmajumdar/BruteXSS/master/version.txt').read()
+        versionfile = urllib2.urlopen('https://raw.githubusercontent.com/rajeshmajumdar/PloitKit/master/core/version.txt').read()
         if float(versionfile) > float(__version__):
             checking.quit()
             updatefunc()
