@@ -48,7 +48,7 @@ def mainbody():
     root.title("PloitKit - The Hacker's Toolbox")
     root.configure(background="#d9d9d9")
     #root.wm_iconbitmap('images/icon.ico')
-    root.resizable(0,0)
+    #root.resizable(0,0)
 
     imagepath = r'images/header.gif'
     image = PhotoImage(file=imagepath)
