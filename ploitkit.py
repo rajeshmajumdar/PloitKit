@@ -2,7 +2,10 @@
 __author__ = "Rajesh Majumdar"
 
 import os
-import urllib2
+try:
+    import urllib.request as urllib2
+except:
+    import urllib2
 
 def main():
     path = os.getcwd()
